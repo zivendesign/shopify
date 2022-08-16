@@ -43,6 +43,17 @@
                 "label": "t:settings_schema.colors.settings.gradient_accent_2.label"
             },
             {
+                "type": "color",
+                "id": "colors_red_1",
+                "default": "#ff0000",
+                "label": "t:settings_schema.colors.settings.colors_red_1.label"
+            },
+            {
+                "id": "gradient_red_1",
+                "type": "color_background",
+                "label": "t:settings_schema.colors.settings.gradient_red_1.label"
+            },
+            {
                 "type": "header",
                 "content": "t:settings_schema.colors.settings.header__2.content"
             },
