@@ -31,6 +31,12 @@
     --gradient-background: var(--gradient-base-accent-2);
 }
 
+.color-background-red-1 {
+    --color-foreground: var(--color-base-solid-button-labels);
+    --color-background: var(--color-base-red-1);
+    --gradient-background: var(--gradient-base-accent-2);
+}
+
 .color-foreground-outline-button {
     --color-foreground: var(--color-base-outline-button-labels);
 }
@@ -52,7 +58,8 @@
 .color-background-2,
 .color-inverse,
 .color-accent-1,
-.color-accent-2 {
+.color-accent-2,
+.color-background-red-1 {
     --color-link: var(--color-foreground);
     --alpha-link: 0.7;
 }
@@ -68,7 +75,8 @@
 .color-background-2,
 .color-inverse,
 .color-accent-1,
-.color-accent-2 {
+.color-accent-2,
+.color-background-red-1 {
     --color-button: var(--color-foreground);
     --color-button-text: var(--color-background);
 }
@@ -82,7 +90,8 @@
 
 .color-background-2 .button--secondary,
 .color-accent-1 .button--secondary,
-.color-accent-2 .button--secondary {
+.color-accent-2 .button--secondary,
+.color-background-red-1 .button--secondary {
     --color-button: var(--color-background);
     --color-button-text: var(--color-foreground);
 }
@@ -102,7 +111,8 @@
 .color-background-2 .button--tertiary,
 .color-inverse .button--tertiary,
 .color-accent-1 .button--tertiary,
-.color-accent-2 .button--tertiary {
+.color-accent-2 .button--tertiary,
+.color-background-red-1 .button--tertiary {
     --color-button: var(--color-foreground);
     --color-button-text: var(--color-foreground);
 }
@@ -117,7 +127,8 @@
 .color-background-2,
 .color-inverse,
 .color-accent-1,
-.color-accent-2 {
+.color-accent-2,
+.color-background-red-1 {
     --color-badge-background: var(--color-background);
     --color-badge-border: var(--color-background);
     --alpha-badge-border: 1;
@@ -134,7 +145,8 @@
 }
 
 .color-accent-1,
-.color-accent-2 {
+.color-accent-2,
+.color-background-red-1 {
     --color-card-hover: var(--color-base-solid-button-labels);
 }
 
@@ -308,7 +320,8 @@ body,
 .color-background-2,
 .color-inverse,
 .color-accent-1,
-.color-accent-2 {
+.color-accent-2,
+.color-background-red-1 {
     color: rgba(var(--color-foreground), 0.75);
     background-color: rgb(var(--color-background));
 }
