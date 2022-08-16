@@ -1,5 +1,5 @@
 {% for product in collections.frontpage.products limit:4 %}
-  <div>
+  <div class="bg-inherit"> 
     <a href="{{ product.url | within: collection }}">{{ product.title }}</a>
     {{ product.price | money }}
     {% unless product.available %}<br><strong>sold out</strong>{% endunless %}
